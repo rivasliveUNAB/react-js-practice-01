@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+
+.d-flex {
+  display: flex;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.btn {
+  height: 40px;
+  min-width: 50px;
+  cursor: pointer;
+}
+
+.count-text {
+  margin: 0 12px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label p {
+  margin:0 10px 0 10px;
+}
+
+label input {
+  display: block;
+  width: 50px;
+  margin: 0;
+}
